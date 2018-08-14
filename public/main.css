@@ -14,7 +14,7 @@ body{
   padding: 0;
 }
 
-#home-navbar{
+#home-header{
   text-align: center;
   padding: .2vh;
   color:#6C2730;
@@ -22,6 +22,44 @@ body{
   background-color: #EA2A90;
 }
 
-#home-navbar h1{
+#home-header h1{
   margin-top: -1%;
+}
+
+#home-navbar{
+  display: grid;
+  margin-top: .4%;
+  text-align: center;
+  grid-template: 100% / auto auto;
+}
+
+#home-navbar a{
+  text-decoration:none;
+  color: black;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.home-navlink{
+  border:2px solid #6C2730;
+}
+
+.home-navlink:hover, .home-navlink:hover .home-navlink a{
+  background-color: #6C2730;
+}
+
+#home-selection-grid{
+  display: grid;
+  margin-top: .4%;
+  max-width: 100%;
+  grid-template: 100% / auto auto auto;
+}
+
+#home-selection-grid img{
+  max-width: 100%;
+  border: 2px solid black;
+}
+
+.home-selection-option{
+
 }

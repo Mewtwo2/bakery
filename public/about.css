@@ -1,0 +1,22 @@
+@font-face {
+    font-family: fancymancy;
+    src: url(SCRIPTIN.ttf);
+}
+
+@font-face {
+    font-family: rumbo;
+    src: url(Rumburak.ttf);
+}
+
+h1{
+  color:purple;
+  font-size: 300%;
+  text-align: center;
+  font-family: fancymancy;
+}
+
+p{
+  text-align: center;
+  font-size:240%;
+  font-family: rumbo;
+}
